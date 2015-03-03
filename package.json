@@ -1,17 +1,17 @@
 {
   "author": "Paul Serby <paul@serby.net>",
-  "name": "cf-resolve-relation-stream",
+  "name": "resolve-relation-stream",
   "description": "Object duplex stream that resolves relational properties to full objects.",
   "version": "0.0.1",
   "tags": [],
   "repository": {
     "type": "git",
-    "url": "git@github.com:serby/cf-resolve-relation-stream"
+    "url": "git@github.com:serby/resolve-relation-stream"
   },
   "publishConfig": {
-    "registry":"http://registry.npmjs.org"
+    "registry": "http://npm.clockte.ch"
   },
-  "main": "",
+  "main": "resolve-relation-stream",
   "scripts": {
     "lint": "./node_modules/.bin/jshint . --reporter=./node_modules/jshint-full-path/index.js",
     "pretest": "npm run-script lint",
@@ -24,10 +24,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "mocha": "1",
-    "should": "2",
-    "istanbul": "~0.1.44",
-    "jshint": "~2.3.0",
-    "jshint-full-path": "~0.1.0"
+    "istanbul": "^0.3.6",
+    "jshint": "^2.6.3",
+    "jshint-full-path": "^1.1.1",
+    "mocha": "^2.1.0",
+    "stream-array": "^1.0.1",
+    "stream-assert": "^2.0.2"
   }
 }
