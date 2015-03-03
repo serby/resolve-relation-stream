@@ -9,7 +9,7 @@
     "url": "git@github.com:serby/resolve-relation-stream"
   },
   "publishConfig": {
-    "registry": "http://npm.clockte.ch"
+    "registry": "http://registry.npmjs.org"
   },
   "main": "resolve-relation-stream",
   "scripts": {
