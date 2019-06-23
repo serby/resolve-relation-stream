@@ -2,7 +2,7 @@
 
 Object duplex stream that resolves relational properties to full objects.
 
-[![build status](https://secure.travis-ci.org/serby/resolve-relation-stream.png)](http://travis-ci.org/serby/resolve-relation-stream)
+[![build status](https://secure.travis-ci.org/serby/resolve-relation-stream.png)](http://travis-ci.org/serby/resolve-relation-stream) [![Greenkeeper badge](https://badges.greenkeeper.io/serby/resolve-relation-stream.svg)](https://greenkeeper.io/)
 
 ## Installation
 
